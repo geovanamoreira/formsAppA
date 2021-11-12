@@ -9,10 +9,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { Drivers, Storage } from '@ionic/storage';
 import { IonicStorageModule } from '@ionic/storage-angular';
-import { CadastroPipe } from './cadastro.pipe';
 
 @NgModule({
-  declarations: [AppComponent, CadastroPipe],
+  declarations: [AppComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
